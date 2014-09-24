@@ -1,0 +1,3 @@
+---
+- name: deploy application
+  copy: src=/Users/valentinaarmenise/git/ansible/tomcat-standalone/roles/deploy/spring-petclinic/target/petclinic.war dest=/var/lib/tomcat7/webapps/
